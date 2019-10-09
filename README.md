@@ -13,9 +13,7 @@ These instructions will get you an application running on AWS instance using Ela
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Clone repository to get the script
+Clone repository to get the deployment script.
 
 ```
 git clone https://github.com/anukanksha13/node-js-deploy.git
@@ -27,6 +25,12 @@ Run script by passing required parameters.
 sh deploy-app.sh --aws-user-profile=user1 --aws-region=us-east-2
 ```
 
+Use --help option to check usage of the script.
+
+```
+sh deploy-app.sh --help
+```
+
 ## Running the tests
 
-Access the application using domain name created as part of deployment.
+Access the application using domain name created as part of deployment from Elastic Beanstalk.
